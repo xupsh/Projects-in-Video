@@ -1,0 +1,37 @@
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 00e8598d1b764062b90db4e392ef5c7e --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port GND [C:/Users/zhehengt/Desktop/Digital_Design_Lab/Chapter_13/Digital_Clock/Digital_Clock.srcs/sim_1/new/tb.v:33]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port clr [C:/Users/zhehengt/Desktop/Digital_Design_Lab/Chapter_13/Digital_Clock/Digital_Clock.srcs/sim_1/new/tb.v:35]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_div
+Compiling module xil_defaultlib.design_1_clk_div_0_0
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.design_1_clk_wiz_0_0_clk_wiz
+Compiling module xil_defaultlib.design_1_clk_wiz_0_0
+Compiling module xil_defaultlib.decimal_counter
+Compiling module xil_defaultlib.design_1_decimal_counter_0_0
+Compiling module xil_defaultlib.design_1_decimal_counter_1_0
+Compiling module xil_defaultlib.design_1_decimal_counter_2_0
+Compiling module xil_defaultlib.design_1_decimal_counter_3_0
+Compiling module xil_defaultlib.four_2_input_and_gate
+Compiling module xil_defaultlib.design_1_four_2_input_and_gate_0...
+Compiling module xil_defaultlib.seg7decimal
+Compiling module xil_defaultlib.design_1_seg7decimal_0_0
+Compiling module xil_defaultlib.xlconcat(dout_width=16,NUM_PORTS...
+Compiling module xil_defaultlib.design_1_xlconcat_0_0
+Compiling module xil_defaultlib.xlconcat(dout_width=8,NUM_PORTS=...
+Compiling module xil_defaultlib.design_1_xlconcat_1_0
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Waiting for 3 sub-compilation(s) to finish...
+Built simulation snapshot tb_behav
